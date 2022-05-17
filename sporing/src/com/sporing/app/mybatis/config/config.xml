@@ -3,7 +3,13 @@
 
 <configuration>
 	<typeAliases>
-		<typeAlias type="vo.MemberVO" alias="member"/>
+		<typeAlias type="com.sporing.app.application.vo" alias="application"/>
+		<typeAlias type="com.sporing.app.lounge.vo" alias="lounge"/>
+		<typeAlias type="com.sporing.app.m_intro.vo" alias="m_intro"/>
+		<typeAlias type="com.sporing.app.m_recruit.vo" alias="m_recruit"/>
+		<typeAlias type="com.sporing.app.team.vo" alias="team"/>
+		<typeAlias type="com.sporing.app.user.vo" alias="user"/>
+		
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
@@ -18,7 +24,12 @@
 	</environments>
 	
 	<mappers>
-		<mapper resource="com/sporing/mybatis/sql/member.xml"/>
+		<mapper resource="com/sporing/mybatis/sql/user.xml"/>
+		<mapper resource="com/sporing/mybatis/sql/team.xml"/>
+		<mapper resource="com/sporing/mybatis/sql/m_recruit.xml"/>
+		<mapper resource="com/sporing/mybatis/sql/m_intro.xml"/>
+		<mapper resource="com/sporing/mybatis/sql/lounge.xml"/>
+		<mapper resource="com/sporing/mybatis/sql/application.xml"/>
 	</mappers>
 	
 </configuration>
