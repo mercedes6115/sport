@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/*  
+배드민턴 #a341f9; 축구 #70C93A  농구 #FF8F4B 풋살 #4B70EE 
+
+모집중 #FF576B 모집완료 #A6A6A6 */
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ONE-Mobile-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*  */
+
+body{
+
+    font-family: 'ONE-Mobile-Regular';
+    font-size:13px;
+
+}
+.root{
+    margin: 0px auto;
+    width: 65%;
+}
+
+ul li{
+    list-style: none;
+    display:flex;
+    width: 800px;
+    height: 85px;
+	padding: 8px 10px 10px 10px;
+    align-items: center;
+    border-bottom: 1px solid rgb(188, 186, 186);
+}
+
+.filter{
+    font-size: 12px;
+    width: 220px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    margin-left:72px;
+	display: flex;
+	text-align: center;
+    
+}
+
+.filter a{
+	padding-top: 3px;
+	font-size: 14px;
+	color: black;
+	
+}
+
+.m-sports{
+    background-color: #a341f9;
+    display: inline-block;
+    border-radius: 18px;
+    width: 45px;
+    height: 17px;
+    padding: 7px 7px 1px 10px;
+    color: white;
+    font-family: 'ONE-Mobile-Title';
+    text-align: center;
+    font-size: 11px;
+}
+
+.m-lo {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 11px;
+    font-family: 'ONE-Mobile-Title';
+}
+
+
+img{
+	border-radius: 10px;
+}
+
+.m-info{
+	width: 45%;
+	margin-left: 8%;
+	margin-right: 20%;
+}
+
+.m-info p {
+	font-family: 'ONE-Mobile-Title';
+	font-size: 16px;
+	line-height: 4px;
+}
+
+#name{
+	
+	margin-left: 10px;
+
+}
+
+.material-symbols-outlined{
+	position: relative;
+	top: 8px;
+	margin-right: 10px;
+}
+
+.m-date{
+    text-align: center;
+    width: 9%;
+}
+.m-state a {
+    color: white;
+    position: relative;
+    top: 12px;
+    text-decoration: none;
+    font-size:13px;
+
+}
+.m-state {
+    font-family: 'ONE-Mobile-Title';
+    background-color:#ff5e5e;
+    width: 94px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+/* 모집중 색상 */
+
+
+/* 모집완료시 색상 변경 */
+.end{
+    background-color:#A6A6A6;
+}
+
+/* 스포츠 = 농구 색상 변경 */
+#bas {
+    background-color: #FF8F4B;
+}
+
+/* 스포츠 = 풋살 색상 변경 */
+#fut{
+    background-color: #4B70EE;
+}
+
+/* 스포츠 = 배드민턴 색상 변경 */
+#bad{
+    background-color:#a341f9;
+}
+
+/* 스포츠 = 축구 색상 변경 */
+#soc{
+    background-color:#70C93A;
+}
+
+.header1 {
+    margin-top:10px;
+}
+
+#lo-icon, #lo{
+    position: relative;
+    left: 6%;
+}
+
+#lo-icon{
+    top: 10px;
+}
+
+#write-icon{
+    left: 730px;
+    position: relative;
+    top: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+.header1 a{
+	margin-top:10px;
+	font-size:12px;
+}

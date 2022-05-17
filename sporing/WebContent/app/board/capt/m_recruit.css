@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ONE-Mobile-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.root {
+
+    font-family: 'ONE-Mobile-Regular';
+
+}
+
+.game-text{
+    width: 450px;
+    height: 219px;
+
+}
+
+.s-box {
+    display: flex;
+}
+
+.s-box div {
+    display: flex;
+   	border-radius:10px;
+    width: 220px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size:13px;
+    
+}
+
+.s-box div:hover{
+    background-color: #0074FF;
+    color:white;
+}
+
+.s-box div:first-child{
+    margin-right: 5px;
+    background-color:#0074FF;
+    color:white;
+}
+
+#date1, #fee{
+    width: 443px;
+    height: 45px;
+}
+
+.game-abl div{
+    width: 140px;
+    height: 45px;
+    border: 1px solid black;
+}
+
+.game-abl {
+    width: 448px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.game-abl div {
+    text-align: center;
+    line-height: 47px;
+    
+}
+
+.root{
+    margin: 0px auto;
+    width: 65%;
+
+}
+
+.container {
+    display: block;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.lo-search {
+    height: 52px;
+    width: 87px;
+}
+
+#game-lo-name {
+    width: 350px;
+    height: 45px;
+}
+
+.lo-name {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#form {
+	display:inline-block;
+	
+}
+#date, #start-time, #end-time {
+	width: 213px;
+	height: 48px;
+	font-size: 14px;
+	font-family: 'ONE-Mobile-Regular';
+	text-align: center;
+	margin-top:4px;
+}
+
+#able-time input {
+	display: block;
+	height: 20px;
+}
+
+#able-date input{
+	display:block;
+	margin-right:10px;
+}
+
+.able-dt span{
+	font-size:13px;
+}
+.able-dt p{
+	margin-top:20px;
+	margin-bottom:8px;
+}
+
+.ability{
+	width:95%;
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.gender{
+
+	width:95%;
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+#send_btn{
+	width:448px;
+	margin-top: 20px;
+	height: 48px;
+	background-color: #0074FF;
+	color:white;
+	border-width: none;
+    border-style: none;
+    border-image: initial;
+}
+
+.m-sports{
+    background-color:#4B70EE;
+    display: inline-block;
+    border-radius: 18px;
+    width: 45px;
+    height: 17px;
+    padding: 7px 7px 1px 10px;
+    color: white;
+    font-family: 'ONE-Mobile-Title';
+    text-align: center;
+    font-size: 11px;
+}
+
+#title {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+
