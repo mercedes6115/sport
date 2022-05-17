@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ONE-Mobile-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    border-radius: 20px;
+   	margin-bottom:10px;
+}
+
+.container{
+    width: 65%;
+    padding-top:30px;
+    margin: 0px auto;
+    font-family: 'ONE-Mobile-Regular';
+}
+.info-container{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.m-info{
+  margin-left:20px;
+}
+
