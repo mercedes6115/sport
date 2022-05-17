@@ -1,6 +1,6 @@
-package com.sporing.app.m_recriut.vo;
+package com.sporing.app.recriut.vo;
 
-public class M_recruitVO {
+public class RecruitVO {
 	private String m_recriut_category;
 	private String m_recriut_grade;
 	private String m_recriut_gender;
@@ -78,7 +78,7 @@ public class M_recruitVO {
 	public void setM_recriut_re_user(String m_recriut_re_user) {
 		this.m_recriut_re_user = m_recriut_re_user;
 	}
-	public M_recruitVO(String m_recriut_category, String m_recriut_grade, String m_recriut_gender,
+	public RecruitVO(String m_recriut_category, String m_recriut_grade, String m_recriut_gender,
 			String m_recriut_ground_name, String m_recriut_ground_addr, String m_recriut_game_date,
 			String m_recriut_start_time, String m_recriut_end_time, String m_recriut_fee, String m_recriut_content,
 			String m_recriut_re_user) {
@@ -95,6 +95,6 @@ public class M_recruitVO {
 		this.m_recriut_content = m_recriut_content;
 		this.m_recriut_re_user = m_recriut_re_user;
 	}
-	public M_recruitVO() {;}
+	public RecruitVO() {;}
 	
 }
