@@ -7,13 +7,13 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
 import com.sporing.app.mybatis.config.MyBatisConfig;
-import com.sporing.app.user.vo.MemberVO;
+import com.sporing.app.user.vo.UserVO;
 
-public class MemberDAO {
+public class UserDAO {
 	SqlSessionFactory sqlSession_f = MyBatisConfig.getSqlSession_f();
 	SqlSession sqlSession;
 	
-	public MemberDAO() {
+	public UserDAO() {
 		sqlSession = sqlSession_f.openSession(true);
 	}
 	
@@ -23,7 +23,7 @@ public class MemberDAO {
 	}
 	
 	// 회원가입
-	public void join(MemberVO member) {
+	public void join(UserVO member) {
 		sqlSession.insert("Member.join", member);
 	}
 	
@@ -36,7 +36,7 @@ public class MemberDAO {
 	}
 	
 	// 정보 수정
-	public boolean update(MemberVO member) {
+	public boolean update(UserVO member) {
 		return (sqlSession.update("Member.modify", member)) == 1;
 	}
 	
@@ -54,7 +54,7 @@ public class MemberDAO {
 	}
 	
 	// 나이 조회
-	public List<MemberVO> findMember() {
+	public List<UserVO> findMember() {
 		return sqlSession.selectList("Member.findMember");
 	}
 	
