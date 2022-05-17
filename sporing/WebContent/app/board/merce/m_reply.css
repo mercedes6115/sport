@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'ONE-Mobile-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ONE-Mobile-Title';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.root {
+	width: 65%;
+	margin: 0px auto;
+	font-family: 'ONE-Mobile-Regular';
+}
+
+.recruit_table {
+	padding: 0 16px 32px;
+	margin: 0 auto;
+	padding-top: 30px;
+	
+}
+
+.box {
+	width: 100%;
+	display: block;
+}
+
+.recruit_textarea {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 400;
+	box-sizing: border-box;
+	padding: 12px 8px;
+	border: 1px solid #000;
+	border-radius: 0;
+	resize: none;
+	height: 96px;
+	margin-top: 8px;
+}
+
+/*  */
+.game-abl div {
+	width: 140px;
+	height: 45px;
+	border: 1px solid black;
+}
+
+.game-abl {
+	width: 448px;
+	flex-wrap: wrap;
+	display: grid;
+	grid-gap: 8px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game-abl div {
+	text-align: center;
+	line-height: 47px;
+	font-size: 14px;
+}
+
+.spo_select, .lo_select {
+	width: 448px;
+	height: 45px;
+}
+
+.recruit_textarea {
+	width: 448px;
+	height: 96px;
+}
+
+#send_btn {
+	width: 448px;
+	margin-top: 20px;
+	height: 48px;
+	background-color:  #C4E5B0;
+	color: white;
+	border-width: none;
+	border-style: none;
+	border-image: initial;
+}
+
+.game-abl div:hover {
+	background-color: #3C542B;
+	color: white;
+}
+
+p, #send_btn {
+	font-family: 'ONE-Mobile-Title';
+}
+
+#title {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#date, #start-time, #end-time {
+	width: 213px;
+	height: 48px;
+	font-size: 14px;
+	font-family: 'ONE-Mobile-Regular';
+	text-align: center;
+	margin-top:4px;
+}
+
+#able-time input {
+	display: block;
+	height: 20px;
+}
+
+#able-date input{
+	display:block;
+	margin-right:10px;
+}
+
+.able-dt span{
+	font-size:13px;
+}
+.able-dt p{
+	margin-top:20px;
+	margin-bottom:8px;
+}
+
+
+.ability{
+	width:95%;
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.gender{
+
+	width:95%;
+	display:flex;
+	justify-content:space-evenly;
+	
+}
