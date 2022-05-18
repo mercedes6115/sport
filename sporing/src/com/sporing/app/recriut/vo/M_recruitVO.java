@@ -1,4 +1,4 @@
-package com.sporing.app.m_recriut.vo;
+package com.sporing.app.recriut.vo;
 
 public class M_recruitVO {
 	private String m_recriut_category;
